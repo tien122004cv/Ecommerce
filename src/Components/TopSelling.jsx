@@ -1,9 +1,9 @@
 import { assets } from "../assets/assets"
 
-export default function NewArrivals() {
+export default function TopSelling() {
     return (
-        <div className="w-10/12 mx-auto py-10">
-            <p className="text-center text-3xl font-bold">NEW ARRIVALS</p>
+        <div className="w-10/12 mx-auto py-10 border-0 border-t border-gray-300">
+            <p className="text-center text-3xl font-bold">TOP SELLING</p>
             <div className="py-8 grid grid-cols-4 gap-5">
                 <div className="flex flex-col gap-2">
                     <div className="bg-[#F4F5F0] rounded-2xl overflow-hidden">
