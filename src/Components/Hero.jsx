@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className='bg-[#F1F1F1] relative'>
             <div className="w-10/12 mx-auto flex justify-between items-center gap-8">
-                <div className="w-1/2 space-y-6">
+                <div className="w-1/2 space-y-6 pb-15">
                     <p className="text-6xl font-bold">
                         FIND CLOTHES THAT MATCHES YOUR STYLE
                     </p>
@@ -31,9 +31,9 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="w-1/2 relative">
-                    <img src={assets.hero} alt="" className="w-full" />
-                    <img src={assets.star} alt="" className="absolute w-20 top-1/8 right-0" />
-                    <img src={assets.star} alt="" className="absolute w-10 bottom-1/2 left-0" />
+                    <img src={assets.hero} alt="" className="w-10/12 mx-auto" />
+                    <img src={assets.hero_star} alt="" className="absolute w-20 top-1/8 right-0" />
+                    <img src={assets.hero_star} alt="" className="absolute w-10 top-1/3 left-10" />
                 </div>
             </div>
             <Brandsbar />

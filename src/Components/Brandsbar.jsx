@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Brandsbar() {
     return (
-        <div className='bg-black absolute bottom-0 right-0 left-0 py-8'>
+        <div className='bg-black absolute bottom-0 right-0 left-0 py-6'>
             <div className='w-10/12 mx-auto flex items-center justify-between'>
                 <h1 className='text-white text-4xl versace'>VERSECE</h1>
                 <h1 className='text-white text-4xl raza'>ZARA</h1>
