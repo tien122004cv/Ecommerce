@@ -1,1 +1,35 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cormorant:wght@600&family=Lato&family=Playfair+Display:wght@600&family=Stardos+Stencil&display=swap');
+
+.versace {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.raza {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.gucci {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.prada {
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.calvin-klein {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

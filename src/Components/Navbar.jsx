@@ -1,13 +1,16 @@
 import { FaRegUserCircle } from 'react-icons/fa'
+import { IoIosArrowDown } from 'react-icons/io'
 import { IoCartOutline, IoSearch } from 'react-icons/io5'
 import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
     return (
-        <div className='w-10/12 mx-auto py-4 flex items-center justify-between'>
+        <div className='w-10/12 mx-auto py-5 flex items-center justify-between'>
             <Link className='text-4xl font-bold'>SHOP.CO</Link>
-            <div className='space-x-4'>
-                <NavLink>Shop</NavLink>
+            <div className='flex gap-3'>
+                <NavLink className='flex items-center gap-1'>Shop
+                    <span><IoIosArrowDown /></span>
+                </NavLink>
                 <NavLink>On Sale</NavLink>
                 <NavLink>New Arrivals</NavLink>
                 <NavLink>Brands</NavLink>
