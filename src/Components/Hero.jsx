@@ -1,19 +1,19 @@
 import { assets } from "../assets/assets"
-import Brandsbar from "./Brandsbar"
 
 export default function Hero() {
     return (
-        <div className='bg-[#F1F1F1] relative'>
-            <div className="w-10/12 mx-auto flex justify-between items-center gap-8">
-                <div className="w-1/2 space-y-6 pb-15">
+        <div className='bg-[#F1F1F1]'>
+            <div className="w-10/12 mx-auto flex justify-between gap-8">
+                <div className="w-1/2 space-y-4 pt-10">
                     <p className="text-6xl font-bold">
                         FIND CLOTHES THAT MATCHES YOUR STYLE
                     </p>
+
                     <p className="text-gray-400">
                         Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
                     </p>
 
-                    <button className="px-15 py-3 bg-black text-white rounded-full">Shop now</button>
+                    <button className="px-15 py-3 bg-black text-white rounded-full cursor-pointer">Shop now</button>
 
                     <div className="flex items-center space-x-4 py-4">
                         <div>
@@ -31,12 +31,11 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="w-1/2 relative">
-                    <img src={assets.hero} alt="" className="w-10/12 mx-auto" />
+                    <img src={assets.hero} alt="" className="w-full" />
                     <img src={assets.hero_star} alt="" className="absolute w-20 top-1/8 right-0" />
                     <img src={assets.hero_star} alt="" className="absolute w-10 top-1/3 left-10" />
                 </div>
             </div>
-            <Brandsbar />
         </div>
     )
 }
