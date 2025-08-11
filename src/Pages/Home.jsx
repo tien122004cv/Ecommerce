@@ -3,6 +3,7 @@ import Hero from '../Components/Hero'
 import NewArrivals from '../Components/NewArrivals'
 import TopSelling from '../Components/TopSelling'
 import Brandsbar from '../Components/Brandsbar'
+import DressStyle from '../Components/DressStyle'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Brandsbar />
             <NewArrivals />
             <TopSelling />
+            <DressStyle />
         </>
     )
 }
